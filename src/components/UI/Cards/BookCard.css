@@ -1,0 +1,28 @@
+.bookcard {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  width: 800px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+  border-radius: 5px;
+}
+
+.title {
+  margin-left: 40px;
+  width: 400px;
+}
+
+.progress {
+  text-align: center;
+  width: 200px;
+}
+
+.read-icon {
+  width: 200px;
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+}

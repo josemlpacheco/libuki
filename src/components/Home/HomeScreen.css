@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #e6dfd3;
+  font-family: "Montserrat", sans-serif;
+}
+
+.add-book {
+  text-align: center;
+}
+
+.add-button {
+  font-size: 150px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.books {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-item {
+  text-decoration: none;
+}
+
+.scrollbar {
+  float: left;
+  height: 300px;
+  width: 810px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.force-overflow {
+  min-height: 450px;
+}
+
+#style-7::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #e6dfd3;
+  border-radius: 10px;
+}
+
+#style-7::-webkit-scrollbar {
+  width: 10px;
+  background-color: #e6dfd3;
+}
+
+#style-7::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, #5eceb6)
+  );
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
