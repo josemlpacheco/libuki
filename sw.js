@@ -4,7 +4,11 @@ importScripts(
 );
 
 // eslint-disable-next-line no-undef
-workbox.precaching.precacheAndRoute(["App.js"]);
+workbox.precaching.precacheAndRoute([
+  "index.html",
+  "OneSignalSDKWorker.js",
+  "OneSignalSDKUpdaterWorker.js",
+]);
 // eslint-disable-next-line no-undef
 workbox.routing.registerRoute(
   new RegExp("\\.*"),
